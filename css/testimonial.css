@@ -1,0 +1,181 @@
+.testimonialWrapper{
+    background-image: url(/public/images/testimonialbg.png);
+    
+    font-size: 20px;
+    /* height: 100vh; */
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* justify-content: center; */
+    text-align: center;
+
+
+    h2{
+        font-size: 36px;
+        font-weight: 100;
+    }
+    
+    h3{
+        font-size: 20px;
+        font-weight: 100;
+        opacity: 50%;
+        margin-bottom: 10px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+    
+    
+    .testimonialTitle{
+        font-family: dgsemimed;
+        font-size: 24px;
+        color: white;
+        /* text-align: center; */
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .testimonialContainer{
+        display: flex;
+        flex:1;
+        height: 100px;
+        width: 100vw;
+    }
+    
+    .testimonialCard1{
+        position: relative;
+        font-family: dgsemireg;
+        display: inline-block;
+        
+        .testTextContainer1{
+            /* margin-left: 50px; */
+            position: absolute;
+            top: 33%;
+            left: 46%;
+            transform: translate(-50%, -55%);
+            color: WHITE;
+            font-size: 24px;
+            text-align: left;
+            line-height: 120%;
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            
+        }
+
+        .testpContainer1 {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: justify;
+            color: WHITE;
+            line-height: 110%;
+
+        }
+    }
+    
+    .testimonialCard2{
+        position: relative;
+        font-family: dgsemireg;
+        display: inline-block;
+
+        
+        .testTextContainer2{
+            /* margin-left: 50px; */
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            transform: translate(-50%, -55%);
+            color: WHITE;
+            font-size: 24px;
+            text-align: left;
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            line-height: 120%;
+
+        }
+
+        .testpContainer2 {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: justify;
+            color: WHITE;
+            line-height: 110%;
+
+        }
+    }
+    
+    .testimonialCard3{
+        position: relative;
+        font-family: dgsemireg;
+        display: inline-block;
+
+
+
+        .testTextContainer3{
+            /* margin-left: 50px; */
+            position: absolute;
+            top: 33%;
+            left: 45%;
+            transform: translate(-50%, -55%);
+            color: WHITE;
+            font-size: 24px;
+            text-align: left;
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            line-height: 120%;
+        
+        }
+        .testpContainer3 {
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: justify;
+            color: WHITE;
+            line-height: 110%;
+
+        }
+    }
+
+    .testimonialCard4{
+        position: relative;
+        font-family: dgsemireg;
+        display: inline-block;
+
+
+
+        .testTextContainer4{
+            /* margin-left: 50px; */
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            transform: translate(-50%, -55%);
+            color: WHITE;
+            font-size: 24px;
+            text-align: left;
+            /* padding: 10px 20px; */
+            /* border-radius: 5px; */
+            line-height: 120%;
+        
+        }
+        .testpContainer4{
+            width: 80%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -20%);
+            text-align: justify;
+            color: WHITE;
+            line-height: 110%;
+
+        }
+    }
+}

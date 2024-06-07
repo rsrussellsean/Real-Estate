@@ -1,0 +1,204 @@
+.servicesWrapper{
+    height: 100%;
+    width: 100vw;
+    background-image: url(/public/images/servicesbg.png);
+
+}
+
+.servicesTitleContainer{
+    justify-content: center;
+    text-align: center;
+    line-height: 250%;
+    /* margin-top: 50px; */
+}
+.servicesTitleContainer h1{
+    font-family: dgbold;
+    font-size: 48px;
+
+}
+.servicesTitleContainer h3{
+    font-family: dgsemibold;
+    font-size: 24px;
+    color: #FFBF00;
+    padding-top: 50px;
+
+
+}
+
+.servicesContainer{
+    display: flex;
+    flex:1;
+    height: 100px;
+    width: 100vw;
+
+}
+
+
+.responsiveWrapper{
+    position: relative;
+    
+    .responsiveCard{
+        position: relative;
+        display: inline-block;
+    }
+    .responsiveCard img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .responsiveContainer{
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: translate(-50%, -100%);
+        color: black;
+        font-size: 24px;
+        /* padding: 10px 20px; */
+        /* border-radius: 5px; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    .responsiveContainer h1{
+        margin-bottom: 80px;
+        font-size: 62px;
+        font-family: dgbold;
+        /* transform: translate(-55%, -45%); */
+        /* width: 30%; */
+
+
+    }
+    .responsiveContainer p{
+        font-size: 20px;
+        font-family: interReg;
+        color: #878787;
+    }
+}
+
+.syndicateWrapper{
+    position: relative;
+    
+    .syndicateCard{
+        position: relative;
+        display: inline-block;
+    }
+    .syndicateCard img{
+        display: block;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .syndicateContainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        color: black;
+        font-size: 24px;
+        /* padding: 10px 20px; */
+        /* border-radius: 5px; */
+        text-align: center;
+        justify-content: center;
+    }
+
+    .syndicateContainer h1{
+        margin-bottom: 80px;
+        font-size: 62px;
+        font-family: dgbold;
+        /* transform: translate(-55%, -45%); */
+
+    }
+    .syndicateContainer p{
+        font-size: 20px;
+        font-family: interReg;
+        color: #878787;
+    }
+}
+
+
+.virtualWrapper{
+    position: relative;
+    
+    .virtualCard{
+        position: relative;
+        display: inline-block;
+    }
+    .virtualCard img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .virtualContainer{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        color: black;
+        font-size: 24px;
+        /* padding: 10px 20px; */
+        /* border-radius: 5px; */
+        text-align: center;
+        /* justify-content: center; */
+    }
+
+    .virtualContainer h1{
+        margin-bottom: 80px;
+        font-size: 62px;
+        font-family: dgbold;
+        width: 30vh;
+        /* transform: translate(-55%, -45%); */
+
+    }
+    .virtualContainer p{
+        font-size: 20px;
+        font-family: interReg;
+        color: #878787;
+    }
+    
+}
+
+.photographyWrapper{
+    position: relative;
+    
+    .photographyCard{
+        position: relative;
+        display: inline-block;
+    }
+    .photographyCard img{
+        display: block;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .photographyContainer{
+        position: absolute;
+        top: 52%;
+        left: 52%;
+        transform: translate(-50%, -100%);
+        color: black;
+        font-size: 24px;
+        /* padding: 10px 20px; */
+        /* border-radius: 5px; */
+        text-align: center;
+        /* justify-content: center; */
+    }
+
+    .photographyContainer h1{
+        margin-bottom: 80px;
+        font-size: 58px;
+        font-family: dgbold;
+        /* width: 30vh; */
+        text-align: center;
+        justify-content: center;
+        /* transform: translate(-55%, -45%); */
+
+    }
+    .photographyContainer p{
+        font-size: 20px;
+        font-family: interReg;
+        color: #878787;
+    }
+    
+}

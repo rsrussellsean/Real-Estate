@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "dgbold";
+    src: url("/public/fonts/DarkerGrotesque-Bold.ttf");
+    
+}
+
+@font-face {
+    font-family: "dgsemibold";
+    src: url("/public/fonts/DarkerGrotesque-SemiBold.ttf");
+    
+}
+
+@font-face {
+    font-family: "dgsemimed";
+    src: url("/public/fonts/DarkerGrotesque-Medium.ttf");
+    
+}
+
+@font-face {
+    font-family: "dgsemireg";
+    src: url("/public/fonts/DarkerGrotesque-Regular.ttf");
+    
+}
+
+@font-face {
+    font-family: "interReg";
+    src: url("/public/fonts/Inter-Regular.ttf");
+    
+}
