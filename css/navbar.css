@@ -82,12 +82,25 @@
     transition: color 0.3s, transform 0.3s;
     font-family: interReg;
     /* font-size: 15px; */
+    position: relative; /* Required for the absolute positioning of the pseudo-element */
+  }
+
+
+  .navigation__link::after {
+    content: '';
+    position: absolute;
+    left: 0; /* Start the underline from the left */
+    bottom: 0;
+    width: 0; /* Start with zero width */
+    height: 1px; /* Adjust the height of the underline as needed */
+    background-color: white; /* Color of the underline */
+    transition: width 0.3s ease; /* Transition for smooth width change */
   }
   
-  .navigation__link:hover {
-    color: #007BFF;
-    transform: scale(1.1);
+  .navigation__link:hover::after {
+    width: 100%; /* Expand the width to 100% on hover */
   }
+  
   
   /* Hamburger Menu */
   /* .hamburger-component {
