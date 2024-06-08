@@ -1,10 +1,10 @@
-@import "./fonts.css";
-@import "./services.css";
-@import "./testimonial.css";
-@import "./credentials.css";
-@import "./process.css";
-@import "./market.css";
-@import "./searchbar.css";
+@import "/css/fonts.css";
+@import "/css/services.css";
+@import "/css/testimonial.css";
+@import "/css/credentials.css";
+@import "/css/process.css";
+@import "/css/market.css";
+@import "/css/searchbar.css";
 
 html, body {
     margin: 0;
