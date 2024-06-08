@@ -1,6 +1,6 @@
-@import "./css/fonts.css";
-@import "./css/services.css";
-@import "./css/testimonial.css";
+@import "/Real-Estate/css/fonts.css";
+@import "/Real-Estate/css/services.css";
+@import "./Real-Estate/css/testimonial.css";
 @import "./css/credentials.css";
 @import "/css/process.css";
 @import "/css/market.css";
