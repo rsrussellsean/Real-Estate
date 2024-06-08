@@ -1,11 +1,9 @@
 .servicesWrapper{
     height: 100%;
     width: 100vw;
-    background-image: url(/public/images/servicesbg.png);
+    background-image: url(/Real-Estate/public/images/servicesbg.png);
 
 }
-
-
 
 .servicesTitleContainer{
     justify-content: center;

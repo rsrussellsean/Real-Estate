@@ -26,7 +26,7 @@ html, body {
     font-size: 20px;
     height: 100vh;
     width: 100vw;
-    background-image: url("./public/images/introbg.png");
+    background-image: url("/Real-Estate/public/images/introbg.png");
     background-size: cover;
     background-repeat: no-repeat;
     

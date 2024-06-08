@@ -1,29 +1,29 @@
 @font-face {
     font-family: "dgbold";
-    src: url("/public/fonts/DarkerGrotesque-Bold.ttf");
+    src: url("/Real-Estate/public/fonts/DarkerGrotesque-Bold.ttf");
     
 }
 
 @font-face {
     font-family: "dgsemibold";
-    src: url("/public/fonts/DarkerGrotesque-SemiBold.ttf");
+    src: url("/Real-Estate/public/fonts/DarkerGrotesque-SemiBold.ttf");
     
 }
 
 @font-face {
     font-family: "dgmed";
-    src: url("/public/fonts/DarkerGrotesque-Medium.ttf");
+    src: url("/Real-Estate/public/fonts/DarkerGrotesque-Medium.ttf");
     
 }
 
 @font-face {
     font-family: "dgsemireg";
-    src: url("/public/fonts/DarkerGrotesque-Regular.ttf");
+    src: url("/Real-Estate/public/fonts/DarkerGrotesque-Regular.ttf");
     
 }
 
 @font-face {
     font-family: "interReg";
-    src: url("/public/fonts/Inter-Regular.ttf");
+    src: url("/Real-Estate/public/fonts/Inter-Regular.ttf");
     
 }
