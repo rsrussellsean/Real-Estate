@@ -1,0 +1,211 @@
+.marketWrapper{
+    height: 100%;
+    width: 100vw;
+    background-image: url(/public/images/credbg.png);
+
+}
+
+.marketTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    
+    }
+    
+.marketTitleContainer h1{
+    margin-top: 5%;    
+    margin-bottom: 5%;    
+    
+    margin-left: 16px;
+    color: black;
+    font-family: dgsemibold;
+    font-size: 48px;
+
+}
+
+.marketSubTextContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    font-family: interReg;
+    color: #878787;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.marketSubTextContainer img{
+    margin-top: 50px;
+}
+#rsText{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.marketSubTextContainer p{
+    /* width: 30%; */
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+
+#homeText{
+    color: #FFBF00;
+}
+
+.marketContainer{
+    /* margin-top: 10%; */
+    display: flex;
+    flex:1;
+    /* height: 100%; */
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.localWrapper{
+    position: relative;
+    
+    .localCard{
+        position: relative;
+        display: inline-block;
+    }
+    .localCard img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .localContainer{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        color: black;
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .localContainer h1{
+        color: black;
+        font-size: 36px;
+        font-family: dgbold;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 12%;
+
+
+    }
+    .localContainer p{
+        text-align: justify;
+        font-size: 18px;
+        font-family: interReg;
+        color: #878787;
+    }
+}
+
+.nationalWrapper{
+    position: relative;
+    
+    .nationalCard{
+        position: relative;
+        display: inline-block;
+    }
+    .nationalCard img{
+        display: block;
+        /* width: 100%; */
+        height: auto;
+    }
+
+    .nationalContainer{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        color: black;
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nationalContainer h1{
+        color: black;
+        font-size: 36px;
+        font-family: dgbold;
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 12%;
+
+    }
+    .nationalContainer p{
+        text-align: justify;
+        font-size: 18px;
+        font-family: interReg;
+        color: #878787;
+    }
+}
+
+
+.internationalWrapper{
+    position: relative;
+    
+    .internationalCard{
+        position: relative;
+        display: inline-block;
+    }
+    .internationalCard img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .internationalContainer{
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -90%);
+        color: black;
+        width: 82%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+       
+        /* font-size: 24px; */
+        /* padding: 10px 20px; */
+        /* border-radius: 5px; */
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+
+    .internationalContainer h1{
+        color: black;
+        font-size: 36px;
+        font-family: dgbold;
+        text-align: center;
+        margin-top: 6%;
+        margin-bottom: 10%;
+
+        /* width: 30vh; */
+        /* transform: translate(-55%, -45%); */
+
+    }
+    .internationalContainer p{
+        text-align: justify;
+        font-size: 18px;
+        font-family: interReg;
+        color: #878787;
+        /* width: 50%;  */
+        
+    }
+    
+}
+

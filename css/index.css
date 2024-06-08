@@ -1,6 +1,10 @@
 @import "./fonts.css";
 @import "./services.css";
 @import "./testimonial.css";
+@import "./credentials.css";
+@import "./process.css";
+@import "./market.css";
+@import "./searchbar.css";
 
 html, body {
     margin: 0;
@@ -22,7 +26,7 @@ html, body {
     font-size: 20px;
     height: 100vh;
     width: 100vw;
-    background-image: url("./public/images/introbg.png");
+    background-image: url("/public/images/introbg.png");
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -30,6 +34,7 @@ html, body {
         font-family: dgbold;
         font-size: 96px;
         line-height: 80%;
+        color: black;
     }
 }
 

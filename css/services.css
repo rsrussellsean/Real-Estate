@@ -5,6 +5,8 @@
 
 }
 
+
+
 .servicesTitleContainer{
     justify-content: center;
     text-align: center;
@@ -12,12 +14,13 @@
     /* margin-top: 50px; */
 }
 .servicesTitleContainer h1{
+    color: black;
     font-family: dgbold;
     font-size: 48px;
 
 }
 .servicesTitleContainer h3{
-    font-family: dgsemibold;
+    font-family: dgmed;
     font-size: 24px;
     color: #FFBF00;
     padding-top: 50px;
@@ -61,6 +64,7 @@
     }
 
     .responsiveContainer h1{
+        color: black;
         margin-bottom: 80px;
         font-size: 62px;
         font-family: dgbold;
@@ -103,6 +107,7 @@
     }
 
     .syndicateContainer h1{
+        color: black;
         margin-bottom: 80px;
         font-size: 62px;
         font-family: dgbold;
@@ -144,6 +149,7 @@
     }
 
     .virtualContainer h1{
+        color: black;
         margin-bottom: 80px;
         font-size: 62px;
         font-family: dgbold;
@@ -186,6 +192,7 @@
     }
 
     .photographyContainer h1{
+        color: black;
         margin-bottom: 80px;
         font-size: 58px;
         font-family: dgbold;

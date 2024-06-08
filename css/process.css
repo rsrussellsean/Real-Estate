@@ -1,0 +1,48 @@
+.processContainer {
+    background-image: url(/public/images/processbg.png);
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+}
+
+.processWrapper{
+    display: flex;
+    flex: 1;
+    /* height: 100%; */
+    margin-top: 5%;
+
+}
+
+.sellingContainer,
+.buyingContainer {
+    flex: 1;
+    display: flex; /* Add this line */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sImageContainer{
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+.bImageContainer{
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: dgmed;
+    font-size: 40px;
+    color: white;
+}

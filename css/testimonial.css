@@ -1,13 +1,10 @@
 .testimonialWrapper{
     background-image: url(/public/images/testimonialbg.png);
-    
     font-size: 20px;
-    /* height: 100vh; */
     height: 100%;
     width: 100vw;
     background-size: cover;
     background-repeat: no-repeat;
-    /* justify-content: center; */
     text-align: center;
 
 
@@ -29,7 +26,7 @@
     
     
     .testimonialTitle{
-        font-family: dgsemimed;
+        font-family: dgmed;
         font-size: 24px;
         color: white;
         /* text-align: center; */
