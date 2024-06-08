@@ -1,7 +1,7 @@
-@import "/css/fonts.css";
-@import "/css/services.css";
-@import "/css/testimonial.css";
-@import "/css/credentials.css";
+@import "./css/fonts.css";
+@import "./css/services.css";
+@import "./css/testimonial.css";
+@import "./css/credentials.css";
 @import "/css/process.css";
 @import "/css/market.css";
 @import "/css/searchbar.css";
@@ -26,7 +26,7 @@ html, body {
     font-size: 20px;
     height: 100vh;
     width: 100vw;
-    background-image: url("/public/images/introbg.png");
+    background-image: url("./public/images/introbg.png");
     background-size: cover;
     background-repeat: no-repeat;
     
