@@ -1,0 +1,163 @@
+footer{
+    width: 100vw;
+    height: 100%;
+    justify-content:center ;
+    align-items: center;    
+    background-image: url("/Real-Estate/public/images/marketbg.png");
+}
+
+.partnershipWrapper{
+    display: flex;
+    flex-direction: row;
+    
+   
+
+}
+
+.partnershipContainer{
+    width: 100vw;
+    margin-left: 15%;
+    margin-top: 10%;
+
+}
+
+.partnershipContainer h1{
+   font-family: dgsemibold;
+   margin-bottom: 30px;
+}
+
+.partnershipContainer p{
+    font-family: interReg;
+    font-size: 18px;
+    width: 25vw;
+    
+}
+
+.newsletterContainer{
+    width: 100vw;
+    margin-top: 10%;
+
+
+}
+
+.newsletterContainer h1{
+    font-family: dgsemibold;
+    margin-bottom: 30px;
+}
+
+.newsletterContainer p{
+    font-family: interReg;
+    font-size: 18px;
+    width: 20vw;
+    margin-bottom: 20px;
+
+}
+
+.newsletterContainer textarea{
+    margin-top: 50px;
+    background-color: transparent;
+    width: 50%;
+    /* border-color: transparent; */
+    border-width: 0 0 1px 0;
+    resize: none;
+
+    font-family: interReg;
+
+}
+.newsletterContainer :placeholder-shown{
+    font-family: interReg;
+
+}
+
+
+.newsletterContainer button{
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    /* font-weight: bold; */
+    font-family: dgsemibold;
+    
+
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: transparent;        
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+.newsletterContainer button:hover{
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    /* font-weight: bold; */
+    font-family: dgsemibold;
+    
+
+    cursor: pointer;
+    /* border: 1px solid white; */
+    background-color: black;        
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.contactWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.contactWrapper p{
+    font-family: interReg;
+
+}
+.contactWrapper h3{
+    font-family: dgsemibold;
+    margin-bottom: 20px;
+}
+
+.addressContainer{
+    margin-right: 10%;
+}
+
+
+
+.logoWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+.logoContainer{
+    width: 50%;
+    margin-top: auto;
+}
+
+.sponsorContainer img{
+    width: 50px;
+
+}
+
+.designedWrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 50px;
+    font-size: 16px;
+    margin-top: 4%;
+}
+
+.designedWrapper p{
+    font-family: interReg;
+
+}
+
+.designedContainer{
+    width: 50%;
+
+}

@@ -1,0 +1,73 @@
+.workContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: dgbold;
+    background-image: url("/Real-Estate/public/images/workbg.png");
+    height: 100%;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;   
+    color: white;
+
+
+    /* font-size: 6px; */
+}
+
+.workTitleContainer h1{
+   font-size: 48px;
+   margin-bottom: 30px;
+
+}
+
+.workTextContainer{
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    font-family: interReg;
+    margin-top: 30px;
+
+}
+
+.workContainer hr{
+   width: 50%;
+   margin: auto;
+   
+}
+
+.workContainer button{
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;
+    /* font-weight: bold; */
+    font-family: dgsemibold;
+    
+
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent;        
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+
+    /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+}
+
+.workContainer button:hover{
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;
+    /* font-weight: bold; */
+    font-family: dgsemibold;
+    
+
+    cursor: pointer;
+    /* border: 1px solid white; */
+    background-color: white;        
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s;
+}
