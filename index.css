@@ -1,4 +1,3 @@
-/* @import "/Real-Estate/css/fonts.css"; */
 @import "/Real-Estate/css/fonts.css";
 @import "/Real-Estate/css/services.css";
 @import "/Real-Estate/css/testimonial.css";
@@ -52,8 +51,7 @@ html, body {
 }
 
 #imgHouse {
-    /* width: 100%; */
-   /* padding-left: 100px; */
+    width: 100%;
 }
 
 #imgLogo {
