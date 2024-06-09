@@ -1,7 +1,25 @@
+
+.animation {
+    opacity: 0;
+    transform: scale(1.2);
+    display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animation {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.animation-transition {
+    opacity: 1;
+    transform: none;
+}
+
 .servicesWrapper{
     height: 100%;
     width: 100vw;
-    background-image: url(/Real-Estate/public/images/servicesbg.png);
+    background-image: url(./public/images/servicesbg.png);
 
 }
 
@@ -29,18 +47,28 @@
 .servicesContainer{
     display: flex;
     flex:1;
-    height: 100px;
+    height: 100%;
     width: 100vw;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
 
 }
 
 
+
+/* .responsiveWrapper.visible {
+    opacity: 1; 
+} */
+
 .responsiveWrapper{
     position: relative;
-    
+    transition: all 300ms ease-out;
+  
+   
     .responsiveCard{
         position: relative;
         display: inline-block;
+
     }
     .responsiveCard img{
         display: block;
@@ -55,8 +83,7 @@
         transform: translate(-50%, -100%);
         color: black;
         font-size: 24px;
-        /* padding: 10px 20px; */
-        /* border-radius: 5px; */
+
         text-align: center;
         justify-content: center;
     }
@@ -66,9 +93,6 @@
         margin-bottom: 80px;
         font-size: 62px;
         font-family: dgbold;
-        /* transform: translate(-55%, -45%); */
-        /* width: 30%; */
-
 
     }
     .responsiveContainer p{
@@ -78,8 +102,16 @@
     }
 }
 
+.responsiveWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
+
 .syndicateWrapper{
     position: relative;
+    transition: all 300ms ease-out;
+
     
     .syndicateCard{
         position: relative;
@@ -119,10 +151,16 @@
     }
 }
 
+.syndicateWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
 
 .virtualWrapper{
     position: relative;
-    
+    transition: all 300ms ease-out;
+
     .virtualCard{
         position: relative;
         display: inline-block;
@@ -163,8 +201,15 @@
     
 }
 
+.virtualWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
 .photographyWrapper{
     position: relative;
+    transition: all 300ms ease-out;
+
     
     .photographyCard{
         position: relative;
@@ -206,4 +251,9 @@
         color: #878787;
     }
     
+}
+
+.photographyWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
 }

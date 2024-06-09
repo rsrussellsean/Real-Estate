@@ -66,3 +66,54 @@ function sideMenuToggle() {
     sideMenuShow();
   }
 }
+
+// services animation
+const square = document.querySelector(".animation");
+square.classList.remove("animation-transition");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      square.classList.add("animation-transition");
+      return;
+    }
+
+    square.classList.remove("animation-transition");
+  });
+});
+
+observer.observe(document.querySelector(".animation-wrapper"));
+
+// cred animation
+const cred = document.querySelector(".animation-cred");
+cred.classList.remove("animation-transition-cred");
+
+const observerCred = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      cred.classList.add("animation-transition-cred");
+      return;
+    }
+
+    cred.classList.remove("animation-transition-cred");
+  });
+});
+
+observerCred.observe(document.querySelector(".animation-wrapper-cred"));
+
+// market animation
+const market = document.querySelector(".animation-market");
+market.classList.remove("animation-transition-market");
+
+const observerMarket = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      market.classList.add("animation-transition-market");
+      return;
+    }
+
+    market.classList.remove("animation-transition-market");
+  });
+});
+
+observerMarket.observe(document.querySelector(".animation-wrapper-market"));

@@ -1,3 +1,21 @@
+.animation-market {
+    opacity: 0;
+    transform: scale(1.2);
+    display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animation-market {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.animation-transition-market {
+    opacity: 1;
+    transform: none;
+}
+
+
 .marketWrapper{
     height: 100%;
     width: 100vw;
@@ -71,7 +89,8 @@
 
 .localWrapper{
     position: relative;
-    
+    transition: all 300ms ease-out;
+
     .localCard{
         position: relative;
         display: inline-block;
@@ -112,9 +131,16 @@
     }
 }
 
+.localWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
+
 .nationalWrapper{
     position: relative;
-    
+    transition: all 300ms ease-out;
+
     .nationalCard{
         position: relative;
         display: inline-block;
@@ -154,10 +180,17 @@
     }
 }
 
+.nationalWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
+
 
 .internationalWrapper{
     position: relative;
-    
+    transition: all 300ms ease-out;
+
     .internationalCard{
         position: relative;
         display: inline-block;
@@ -208,4 +241,10 @@
     }
     
 }
+
+.internationalWrapper:hover{
+    transition: all 300ms ease-in;
+    transform: scale(1.02);
+}
+
 
