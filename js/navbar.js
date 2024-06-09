@@ -75,3 +75,23 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("navbar-hidden");
   }
 });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   const hoverElement = document.querySelector(".hover-element");
+
+//   hoverElement.addEventListener("mouseenter", () => {
+//     hoverElement.classList.add("active");
+//   });
+
+//   hoverElement.addEventListener("mouseleave", () => {
+//     // Do not remove the 'active' class on mouse leave
+//   });
+
+//   hoverElement.addEventListener("click", () => {
+//     hoverElement.classList.toggle("active");
+//   });
+// });
+
+$("introContainer").one("mouseover", function () {
+  $("introContainer").addClass("permahover");
+});
