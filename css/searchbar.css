@@ -79,7 +79,7 @@
     border: none;
     cursor: pointer;
     text-align: left;
-    height: 155%; /* Fill the height of the container */
+    height: 150%; /* Fill the height of the container */
     align-self: flex-end;
     /* margin-top: 2%; */
     /* margin-bottom: 1px; */
