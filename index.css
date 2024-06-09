@@ -33,7 +33,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    transition: all 9999999999999999s ease-out;
+    transition: 9999999999999999s ease-out;
 
     
     h1 {
@@ -46,7 +46,7 @@ html, body {
 
 .introContainer:hover{
     width: 100vw;
-    transition: all 500ms ease-in;
+    transition: 500ms ease-in;
 
 }
 
