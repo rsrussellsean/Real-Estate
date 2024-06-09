@@ -24,6 +24,7 @@ footer{
 .partnershipContainer h1{
    font-family: dgsemibold;
    margin-bottom: 30px;
+   color: black;
 }
 
 .partnershipContainer p{
@@ -43,6 +44,8 @@ footer{
 .newsletterContainer h1{
     font-family: dgsemibold;
     margin-bottom: 30px;
+    color: black;
+
 }
 
 .newsletterContainer p{
@@ -81,7 +84,7 @@ footer{
     border: 2px solid black;
     background-color: transparent;        
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     transition: 0.3s;
 
@@ -108,7 +111,7 @@ footer{
     display: flex;
     flex-direction: row;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .contactWrapper p{
