@@ -72,7 +72,7 @@
 .search-container button {
     /* padding: 0 20px;  */
     padding-left: 20px;
-    padding-left: 10px;
+    padding-right: 10px;
     background: #FFBF00;
     border-radius: 10px;
     color: white;
